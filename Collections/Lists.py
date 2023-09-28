@@ -1,3 +1,5 @@
+#List exercise
+
 food = ["apple", "orange", "grapes", "spinach", "carrot"]
 
 print(food)
@@ -20,4 +22,15 @@ print(food)
 if(food.count("vanilla") > 0):
     print("basic")
 
+#Challenge-------------------------------------------------------------
+print("")
+print("challenege----------------------------------")
 
+list = [75, 97, 116, 101, 32, 83, 109, 101, 108, 108, 115]
+
+
+def average(lis):
+    return sum(lis) / len(lis)
+
+# Leave this alone -- it'll make sure your function works!
+assert average(list) == 95.0
